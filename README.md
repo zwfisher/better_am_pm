@@ -22,10 +22,12 @@ In this library, we add an additional option (`twelve_hour: true`) which removes
 
 ## TODO
 
+* ***TESTS***
+
+* Gemfile/requirements (force Rails >= 3.2).
+
 * Anything to simplify the code, ideally calling "super" wherever possible and only touching where we need to.
 
 * Add a meridian-display option and scripts.
 
 * Default handling.
-
-* Gemify.
