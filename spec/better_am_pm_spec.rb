@@ -1,15 +1,15 @@
 require 'spec_helper'
 
-describe ActionView::Helpers::DateTimeSelector do
+describe BetterAmPm::ActionView::Helpers::DateTimeSelector do
 
   it 'has TWELVE_HOUR_TRANSLATIONS constant' do
-    expect(ActionView::Helpers::DateTimeSelector::TWELVE_HOUR_TRANSLATION.class).to eq Hash
+    expect(BetterAmPm::ActionView::Helpers::DateTimeSelector::TWELVE_HOUR_TRANSLATION.class).to eq Hash
   end
 
   describe '#select_hour' do
     context 'called with normal options' do
       # FIXME: This initialization fails in test context without the original ActionView::Helpers::DateTimeSelector
-      let (:selector) { ActionView::Helpers::DateTimeSelector.new(Time.now).select_hour.split("\n") }
+      let (:selector) { BetterAmPm::ActionView::Helpers::DateTimeSelector.new(Time.now).select_hour.split("\n") }
 
       it 'returns a select with options numbered 0..23' do
         expect(selector.length).to eq 26 # 24 hours and open/close select tags
@@ -19,7 +19,7 @@ describe ActionView::Helpers::DateTimeSelector do
     end
 
     context 'called with twelve_hour: true' do
-      let (:selector) { ActionView::Helpers::DateTimeSelector.new(Time.now, twelve_hour: true).select_hour.split("\n") }
+      let (:selector) { BetterAmPm::ActionView::Helpers::DateTimeSelector.new(Time.now, twelve_hour: true).select_hour.split("\n") }
 
       it 'returns a select with two optgroups' do
         expect(selector.length).to eq 28 # 24 hours, open/close select tags, two close optgroup tags

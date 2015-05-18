@@ -1,4 +1,4 @@
-# twelve_hour
+# better_am_pm
 
 A gem monkey-patching Rails to provide user-friendly 12-hour time select form controls.
 

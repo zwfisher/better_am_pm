@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'twelve_hour'
+  s.name        = 'better_am_pm'
   s.version     = '0.0.1'
   s.date        = '2015-04-06'
   s.summary     = "Twelve-hour time selects for Rails and Formtastic"
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'pmorse@dmcouncil.org'
   s.add_runtime_dependency "rails", '>= 3.2.0', '< 4.3'
   s.add_development_dependency 'rspec'
-  s.files       = ["lib/twelve_hour.rb"]
-  s.homepage    = 'https://github.com/dmcouncil/twelve_hour'
+  s.files       = ["lib/better_am_pm.rb"]
+  s.homepage    = 'https://github.com/dmcouncil/better_am_pm'
   s.license     = 'MIT'
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    twelve_hour (0.0.1)
+    better_am_pm (0.0.1)
       rails (>= 3.2.0, < 4.3)
 
 GEM
@@ -121,5 +121,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_am_pm!
   rspec
-  twelve_hour!
