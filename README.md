@@ -22,12 +22,10 @@ In this library, we add an additional option (`twelve_hour: true`) which removes
 
 ## TODO
 
-* ***TESTS***
-
 * Anything to simplify the code, ideally only touching where we need to.
 
 * Can we be more elegant/safer about the way this duck-punches Rails?
 
 * Add a meridian-display option and scripts.
 
-* Default handling.
+* Default handling: should this take the default select? Also, should this actually *replace* Rails' :ampm options?

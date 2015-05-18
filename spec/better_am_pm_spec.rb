@@ -12,6 +12,8 @@ describe ActionView::Helpers::DateTimeSelector do
 
       it 'returns a select with options numbered 0..23' do
         expect(selector.length).to eq 26 # 24 hours and open/close select tags
+        # Because we build our test object with Time.now, we need to allow for
+        # the option tags being in the current hour and having the selected attribute
         expect(selector[1]).to match(/<option value=\"00\"( selected=\"selected\")?>00<\/option>/)
         expect(selector[24]).to match(/<option value=\"23\"( selected=\"selected\")?>23<\/option>/)
       end
