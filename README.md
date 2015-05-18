@@ -6,7 +6,7 @@ A gem monkey-patching Rails to provide user-friendly 12-hour time select form co
 
 The default Rails time select control (for 3.2+) gives two select menus: an hours menu with values 00..23, and a minutes menu with values 00..59. The minutes are fine, but for users in regions where 12-hour time is prevalent, the hours present an extra challenge.
 
-Rails allows developers to pass an option (`ampm: true`) to use 12-hour hour inputs, but this replaces the values 00..23 with 12 AM, 01 AM, 02 AM, etc. This results in selectors which read like this:
+Rails allows developers to pass an option (`ampm: true`) to use 12-hour hour inputs, but this replaces the labels for values 00..23 with 12 AM, 01 AM, 02 AM, etc. This results in selectors which read like this:
 
 > 07AM:30
 
