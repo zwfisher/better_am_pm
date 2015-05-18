@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Parker Morse"]
   s.email       = 'pmorse@dmcouncil.org'
   s.add_runtime_dependency "rails", '>= 3.2.0', '< 4.3'
-  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec', '~> 0'
   s.files       = ["lib/better_am_pm.rb"]
   s.homepage    = 'https://github.com/dmcouncil/better_am_pm'
   s.license     = 'MIT'
