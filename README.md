@@ -24,9 +24,9 @@ In this library, we add an additional option (`twelve_hour: true`) which removes
 
 * ***TESTS***
 
-* Gemfile/requirements (force Rails >= 3.2).
+* Anything to simplify the code, ideally only touching where we need to.
 
-* Anything to simplify the code, ideally calling "super" wherever possible and only touching where we need to.
+* Can we be more elegant/safer about the way this duck-punches Rails?
 
 * Add a meridian-display option and scripts.
 

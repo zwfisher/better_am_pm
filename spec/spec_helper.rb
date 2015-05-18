@@ -1,7 +1,9 @@
 require 'bundler/setup'
 Bundler.setup
 
-require 'twelve_hour' # and any other gems you need
+require 'rails'
+require 'action_view'
+require 'better_am_pm'
 
 RSpec.configure do |config|
   # some (optional) config here
