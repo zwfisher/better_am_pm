@@ -1,16 +1,11 @@
 *.rbc
-capybara-*.html
 .rspec
 /log
 /tmp
-/db/*.sqlite3
-/db/*.sqlite3-journal
 /public/system
 /coverage/
 /spec/tmp
 **.orig
-rerun.txt
-pickle-email-*.html
 
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
@@ -33,3 +28,6 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Ignore built gems
+better_am_pm-*.gem
