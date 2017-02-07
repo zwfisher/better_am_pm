@@ -29,3 +29,9 @@ In this library, we add an additional option (`twelve_hour: true`) which removes
 * Add a meridian-display option and scripts.
 
 * Default handling: should this take the default select? Also, should this actually *replace* Rails' :ampm options?
+
+## Contributors
+
+Swatches was originally developed by [Parker Morse](/pjmorse) and is maintained by [District Management Group][1].
+
+[1]: https://dmgroupK12.com/
