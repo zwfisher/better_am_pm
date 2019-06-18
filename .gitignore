@@ -15,8 +15,9 @@ config/secrets.yml
 /.bundle
 /vendor/bundle
 
-# these should all be checked in to normalise the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
+# We shouldn't bind a gem to dependency versions not spelled
+# out in the .gemspec.
+Gemfile.lock
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
