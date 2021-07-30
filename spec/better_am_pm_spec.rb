@@ -33,7 +33,7 @@ describe ActionView::Helpers::DateTimeSelector do
       it 'numbers the options 12-11 in both optgroups' do
         expect(selector[1]).to match(/<option value=\"00\">12<\/option>/)
         expect(selector[12]).to match(/<option value=\"11\"( selected=\"selected\")?>11<\/option>/)
-        expect(selector[15]).to match(/<option value=\"13\"( selected=\"selected\")?>01<\/option>/)
+        expect(selector[15]).to match(/<option value=\"13\"( selected=\"selected\")?>1<\/option>/)
         expect(selector[25]).to match(/<option value=\"23\"( selected=\"selected\")?>11<\/option>/)
       end
     end
