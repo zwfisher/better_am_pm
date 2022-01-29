@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = "A monkey-patch for Rails' ActionView::Helpers::DateTimeSelector to add a `twelve_hour` option, which shows hours labeled 12..11 in two optgroups, labeled 'am' and 'pm'"
   s.authors     = ["Parker Morse"]
   s.email       = ['pmorse@dmcouncil.org']
-  s.add_runtime_dependency "rails", '>= 3.2.0', '< 6'
+  s.add_runtime_dependency "rails", '>= 3.2.0', '< 7.0.1'
   s.add_development_dependency 'rspec'
   s.files       = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
   s.homepage    = 'https://github.com/dmcouncil/better_am_pm'
